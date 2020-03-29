@@ -1,0 +1,52 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_title {
+    font-size: 60px;
+    color: rgb(0, 57, 90)
+}
+
+.header_contents {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header_contents_description {
+    display: flex;
+    list-style: none;
+}
+
+.header_contents_menu {
+    height: 45px;
+}
+
+.body {
+    width: 1000px;
+    height: 550px;
+    text-align: center;
+    transform: translate(12%);
+}
+
+.topic {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 50px;
+}
+
+.topic_contents1_about_title {
+    font-size: 20px;
+}
+
+.topic_contents1_about_tip {
+    display: flex;
+}
+
+.topic_contents1_about_tip_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
