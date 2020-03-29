@@ -32,6 +32,7 @@
 .topic {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     text-align: center;
     font-size: 50px;
 }
@@ -49,4 +50,26 @@
     flex-direction: column;
     justify-content: space-evenly;
     font-size: 20px;
+}
+
+.topic_contents2_news_tip {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.topic_contents2_news_tip_parts {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.topic_contents2_news_tip_parts_image {
+    width: 140px;
+    height: 80px;
+}
+
+.topic_contents2_news_button {
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
 }
