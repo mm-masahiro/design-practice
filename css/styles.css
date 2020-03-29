@@ -52,6 +52,10 @@
     font-size: 20px;
 }
 
+.topic_contents2_news_title {
+    font-size: 20px;
+}
+
 .topic_contents2_news_tip {
     display: flex;
     justify-content: space-evenly;
@@ -72,4 +76,33 @@
     cursor: pointer;
     font-size: 20px;
     border-radius: 5px;
+    text-decoration: none;
+}
+
+.topic_contents3_cases_title {
+    font-size: 20px;
+}
+
+.topic_contents3_cases_tip {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.topic_contents3_cases_tip_parts_image {
+    width: 140px;
+    height: 80px;
+}
+
+.topic_contents3_cases_tip_parts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+.topic_contents3_cases_button {
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+    text-decoration: none;
 }
