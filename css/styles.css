@@ -20,6 +20,7 @@
 
 .header_contents_menu {
     height: 45px;
+    cursor: pointer;
 }
 
 .body {
@@ -105,4 +106,20 @@
     font-size: 20px;
     border-radius: 5px;
     text-decoration: none;
+}
+
+#menu {
+    right: -180px;
+    background: #f19a37;
+    min-height: 100%;
+    width: 180px;
+}
+
+#show,#hide {
+    float: right;
+}
+
+.menu-open {
+    height: 100%;
+    overflow-x: hidden;
 }
