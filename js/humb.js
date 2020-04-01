@@ -11,10 +11,10 @@
 //     document.body.className = '';
 // });
 
-let show = document.getElementById('show');
+let menu = document.getElementById('menu');
 let hide = document.getElementById('hide');
 
-show.addEventListener('click',function(){
+menu.addEventListener('click',function(){
     document.body.className = 'menu-open';
 });
 
