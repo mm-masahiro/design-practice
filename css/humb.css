@@ -1,0 +1,27 @@
+.hum {
+    display: block;
+    height: 40px;
+    width: 40px;
+    background: #f19a37;
+    float: right;
+    position: relative;
+    cursor: pointer;
+}
+
+.hum_line {
+    height: 1px;
+    width: 60%;
+    background: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);    
+}
+
+.hum_line:nth-of-type(1) {
+    top: 10px;
+}
+
+.hum_line:nth-of-type(3) {
+    top: 30px;
+}
