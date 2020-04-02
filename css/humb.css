@@ -43,10 +43,16 @@
 
 } */
 
+.text {
+    margin: 0;
+}
+
 .menu {
     opacity: 0;
     visibility: hidden;
     transition: 0.3s;
+    float: right;
+    margin: 0;
 }
 
 .menu.active {
