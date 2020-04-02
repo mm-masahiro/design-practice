@@ -1,0 +1,55 @@
+.hum {
+    display: block;
+    height: 40px;
+    width: 40px;
+    background: #f19a37;
+    float: right;
+    position: relative;
+    cursor: pointer;
+}
+
+.hum div {
+    height: 1px;
+    width: 60%;
+    background: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);    
+    transition: 0.3s;
+}
+
+.hum div:nth-of-type(1) {
+    top: 10px;
+}
+
+.hum div:nth-of-type(3) {
+    top: 30px;
+}
+
+/* ハンバーガーメニューを閉じるボタンに変える */
+/* .hum.active div:nth-of-type(1) {
+    transform: rotate(45deg) translate(-50%,0px);
+    transform-origin: 0,50px;
+}
+
+.hum.active div:nth-of-type(2) {
+    opacity: 0;
+}
+
+.hum.active div:nth-of-type(3) {
+    transform: rotate(-45deg) translate(-50%,0px);
+    transform-origin: 0,50px;
+
+} */
+
+.menu {
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+.menu.active {
+    opacity: 1;
+    visibility: visible;
+}
