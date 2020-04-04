@@ -60,6 +60,11 @@
     margin: 0;
 }
 
+.text2 {
+    list-style: none;
+    padding: 0;
+}
+
 .menu {
     opacity: 0;
     visibility: hidden;
