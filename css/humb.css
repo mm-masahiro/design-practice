@@ -60,10 +60,6 @@
     margin: 0;
 }
 
-.text2 {
-    list-style: none;
-    padding: 0;
-}
 
 .menu {
     opacity: 0;
@@ -76,4 +72,19 @@
 .menu.active {
     opacity: 1;
     visibility: visible;
+}
+
+.menu2 {
+    width: 170px;
+    background: #3484cb;
+    list-style: none;
+    padding: 0;
+    position: relative;
+    left: -180px;
+    transition: .3s;
+}
+
+.menu2.show {
+    left: 0;
+    opacity: 0.6;
 }
