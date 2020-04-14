@@ -84,7 +84,20 @@
     transition: .3s;
 }
 
-.menu2.show {
+.text2.show {
     left: 0;
     opacity: 0.6;
+}
+
+
+.hummenu2 {
+    position: relative;
+}
+
+.text2 {
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    left: -60px;
+    transition: 0.3s;
 }
